@@ -1,0 +1,50 @@
+
+.main-title{
+    font-size: 50px;
+    color: 	#191970;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+#buttons {
+    padding: 30px;
+    text-align: center;
+}
+
+#play-rock, #play-paper, #play-scissors {
+    min-width: 160px;
+    margin-left: 30px;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s;
+    color: #fff;
+    background: #0097e6;
+    
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+#messages {
+    text-align: center;
+    font-size: 23px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    span {
+        font-weight: bold;
+    }
+}
