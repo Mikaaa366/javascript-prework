@@ -1,8 +1,4 @@
-const playerScoreDisplay = document.getElementById('player-score');
-const computerScoreDisplay = document.getElementById('computer-score');
-let playerScore = 0, 
-    computerScore = 0;
-const playGame = function (playerInput) {
+function playGame(playerInput) {
     clearMessages();
 
     const getMoveName = function (argMoveId) {
