@@ -51,9 +51,7 @@ const playGame = function (playerInput) {
             computerScoreDisplay.innerHTML = computerScore;
         }
     }
-
     displayResult(argComputerMove, argPlayerMove);
-   
 }
     document.getElementById('play-rock').addEventListener('click', function () {
         playGame('1');
